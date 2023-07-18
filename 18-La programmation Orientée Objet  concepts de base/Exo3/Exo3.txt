@@ -1,0 +1,22 @@
+<?php
+
+// fichier Moto.php
+class Moto
+{
+    public string $brand;
+    public string $color;
+    public float $maxSpeed;
+}
+
+$moto1 = new Moto();
+$moto1->brand = "Yamaha";
+$moto1->color = "Rouge";
+$moto1->maxSpeed = "210";
+
+$moto2 = new Moto();
+$moto2->brand = "Suzuki";
+$moto2->color = "Bleu";
+$moto2->maxSpeed = "220";
+
+echo $moto1->brand.' '.$moto1->color.' '.$moto1->maxSpeed.' km/h'. PHP_EOL;
+echo $moto2->brand.' '.$moto2->color.' '.$moto2->maxSpeed.' km/h';
