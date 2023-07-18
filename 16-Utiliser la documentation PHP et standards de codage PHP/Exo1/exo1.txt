@@ -1,0 +1,12 @@
+money_format
+Cette fonction est OBSOLÈTE à partir de PHP 7.4.0, et a été SUPPRIMÉE à partir de PHP 8.0.0. 
+Dépendre de cette fonction est fortement déconseillé.
+
+7.4.0	Cette fonction est obsolète. Utiliser NumberFormatter::formatCurrency() à la place.
+
+Note:
+
+La fonction money_format() est uniquement définie si le système a les capacités strfmon. 
+Par exemple, Windows ne les a pas, donc, money_format() n'est pas définie sous Windows.
+
+
